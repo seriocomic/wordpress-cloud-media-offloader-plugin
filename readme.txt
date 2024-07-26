@@ -1,12 +1,11 @@
 === Cloud Media Offloader ===
-Contributors: hendridm
+Contributors: seriocomic (forked from hendridm)
 Tags: cloud,media,uploads,offload,block,storage
-Plugin URI: https://github.com/cloudverve/wordpress-cloud-media-offloader-plugin
-Donate link: https://paypal.me/danielhendricks
-Requires at least: 4.7
-Requires PHP: 7.0
-Tested up to: 5.0
-Stable tag: 0.8.1
+Plugin URI: https://github.com/seriocomic/wordpress-cloud-media-offloader-plugin
+Requires at least: 6.0
+Requires PHP: 8.1
+Tested up to: 6.0
+Stable tag: 0.9.0
 License: GPL-2.0
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -22,8 +21,8 @@ It features to ability to limit offloading to specified MIME types.
 
 ===== Requirements =====
 
-* WordPress 4.0 or higher
-* PHP 5.6 or higher
+* WordPress 6.0 or higher
+* PHP 8.1 or higher
 
 == Installation ==
 1. Install Cloud Media Offloader either via the WordPress.org plugin repository or manually by uploading the ZIP through the Add New plugin interface.
@@ -38,7 +37,7 @@ A. No, it will only act on newly uploaded media. You can, however, upload them y
 1. Settings Page
 
 == Changelog ==
-Please see the GitHub [Releases](https://github.com/cloudverve/wordpress-cloud-media-offloader-plugin/releases) page.
+Please see the GitHub [Releases](https://github.com/seriocomic/wordpress-cloud-media-offloader-plugin/releases) page.
 
 == Upgrade Notice ==
-The code has been completely refactored, a new B2 API is being used and some deprecation notices were fixed.
+Composer has been updated to allow plugin to run on PHP8+
